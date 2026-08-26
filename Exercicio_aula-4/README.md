@@ -18,6 +18,23 @@ Tópicos da aula:
 Observações:
 - Esse exercício será utilizado como base para as aulas de testes unitários. 
 
+## Implementação
+
+O núcleo foi implementado em Java 17 usando Maven e está organizado em:
+
+- `organizacao`: padrão Composite para funcionários e departamentos.
+- `bonus`: padrão Template Method para o processamento dos bônus.
+- `factory`: Factory Method para criação de funcionários.
+- `config`: Singleton da configuração global.
+
+Para executar os testes, use:
+
+```bash
+mvn test
+```
+
+O diagrama de classes está em [UML.md](UML.md).
+
 --- 
 
 ## Descrição do cenário:
