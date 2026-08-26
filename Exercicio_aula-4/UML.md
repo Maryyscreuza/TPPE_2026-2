@@ -11,6 +11,9 @@ classDiagram
         -salario double
         +getSalario() double
     }
+    class FuncionarioBonus {
+        -metaAtingida boolean
+    }
     class Departamento {
         -membros List~ComponenteOrganizacional~
         +adicionarMembro(ComponenteOrganizacional)
@@ -18,6 +21,7 @@ classDiagram
     }
     ComponenteOrganizacional <|.. Funcionario
     ComponenteOrganizacional <|.. Departamento
+    Funcionario <|-- FuncionarioBonus
     Departamento o-- ComponenteOrganizacional
 
     class ProcessadorBonus {
