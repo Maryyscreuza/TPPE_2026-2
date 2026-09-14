@@ -3,7 +3,7 @@ package fga0242.agromart.service;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import fga0242.model.ItemPedido;
 import fga0242.model.Produto;
